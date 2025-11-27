@@ -6,6 +6,10 @@ h1{
     color:rgb(0, 0, 0);
     text-align:center;
 }
+
+p{
+    text-align: center;
+}
 .projects{
  display:flex;
  flex-wrap:wrap;
@@ -26,4 +30,40 @@ h1{
     border:2px solid rgb(31,31,31); 
     display:block; 
     margin:auto;
+}
+
+.Small{
+font-size:10px;
+font-style:italic;
+font-weight: 400;
+}
+
+.Medium{
+font-size:12px;
+margin-top:15px;
+margin-left:50px;
+font-weight: 100;
+}
+
+.Important{
+font-size:12px;
+margin-top:15px;
+margin-left:50px;
+
+}
+
+.Details{
+
+font-size:10px;
+font-style:italic;
+font-weight: 400;
+margin-left:100px;
+}
+
+hr{
+    border:2px solid black;
+}
+
+.subhead{
+    width:150px;
 }
