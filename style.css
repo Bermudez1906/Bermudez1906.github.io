@@ -1,25 +1,32 @@
 body {
-background:rgb(1, 29, 105);
-font-family: Arial, helvetica, sans-serif;
+background:rgb(255, 255, 255);
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1{
     color:rgb(0, 0, 0);
     text-align:center;
+    background-color:rgb(97, 1, 121);
 }
-
+h3{
+    text-align:center;
+}
 p{
     text-align: center;
+    color:black;
+}
+.name{
+    color:black;
 }
 .projects{
  display:flex;
- flex-wrap:wrap;
+ 
 }
 
 .project{
     width:30%;
     margin:10px;
     padding:20px 10px;
-    background:rgb(31, 31, 31); 
+    background:rgb(97, 1, 121);
     border-radius:25%;
 }
 
@@ -67,3 +74,4 @@ hr{
 .subhead{
     width:150px;
 }
+
